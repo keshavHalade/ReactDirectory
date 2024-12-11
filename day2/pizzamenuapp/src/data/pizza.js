@@ -18,7 +18,7 @@ const pizzaData = [
       name: "Pizza Spinaci",
       ingredients: "Tomato, mozarella, spinach, and ricotta cheese",
       price: 12,
-      photoName: "pizzas/spinaci.jpg",
+      photoName: "pizzas/focaccia.jpg",
       soldOut: false,
     },
     {
@@ -32,14 +32,14 @@ const pizzaData = [
       name: "Pizza Salamino",
       ingredients: "Tomato, mozarella, and pepperoni",
       price: 15,
-      photoName: "pizzas/salamino.jpg",
+      photoName: "pizzas/focaccia.jpg",
       soldOut: true,
     },
     {
       name: "Pizza Prosciutto",
       ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
       price: 18,
-      photoName: "pizzas/prosciutto.jpg",
+      photoName: "pizzas/focaccia.jpg",
       soldOut: false,
     },
   ];

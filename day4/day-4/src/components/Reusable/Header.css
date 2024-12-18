@@ -1,0 +1,31 @@
+.header {
+  box-shadow: 0px 2px 10px lightblue;
+  display: grid;
+  height: 100px;
+  grid-template-columns: 2fr 4fr 3fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.header-logo img {
+  height: 100px;
+  justify-self: flex-start;
+}
+.header-menu {
+  border: 1px solid gray;
+  height: 40%;
+  width: 80%;
+  justify-self: flex-start;
+}
+.header-info {
+  border: 1px solid gray;
+  height: 40%;
+  width: 80%;
+  justify-self: flex-end;
+}
+.header-profile {
+  border: 1px solid gray;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}

@@ -1,0 +1,106 @@
+.admin-panal {
+  color: white;
+  padding: 20px;
+  background-color: #102442;
+  display: grid;
+  grid-template-columns: 25vw auto;
+  grid-template-rows: 25vh auto;
+}
+.admin-form {
+  width: 25vw;
+  height: 78vh;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  grid-row: 1/3;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+form > div {
+  gap: 3px;
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+form > div > textarea {
+  height: 120px;
+  padding: 10px;
+}
+form > div > input,
+form > div > select {
+  padding: 5px;
+}
+form > button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.client-list {
+  margin: 0px 0px 0px 20px ;
+  display: flex;
+  justify-content: start;
+  height: 25vh;
+  gap: 20px;
+  
+  overflow-x: scroll;
+}
+
+.client-list::-webkit-scrollbar {
+  display: none;
+}
+
+.client {
+  flex-shrink: 0;
+  width: 25vh;
+  height: 25vh;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.client-profile {
+  height: 15vh;
+  width: 15vh;
+  background-color: #102442;
+  border-radius: 50%;
+}
+
+.task-chart {
+  padding: 20px;
+  overflow-y: scroll;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0px 20px 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.task-chart::-webkit-scrollbar {
+  display: none;
+}
+.task-bar {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr 2fr 2fr;
+}

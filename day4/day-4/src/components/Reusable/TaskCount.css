@@ -1,0 +1,23 @@
+.count-chart {
+    padding: 5px;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+.count-card {
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px black;
+  background-color: aliceblue;
+}
+
+.count {
+  font-size: 30px;
+  font-weight: 900;
+}
+.task-type {
+  font-size: 20px;
+  font-weight: 700;
+}

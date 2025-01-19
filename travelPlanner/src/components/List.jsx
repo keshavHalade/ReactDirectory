@@ -13,7 +13,7 @@ function List({ item, onRemove, onPacked}) {
         className="form-label me-2 fs-5"
         style={item.packed ? { textDecoration: "line-through" } : {}}
       >
-        {item.description}
+       {item.description} ({item.quantity})
       </span>
       <button className="btn me-2" onClick={() => onRemove(item.id)}>
         ❌

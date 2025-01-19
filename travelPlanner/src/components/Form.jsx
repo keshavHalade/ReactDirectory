@@ -37,11 +37,7 @@ function Form({ onSetListItem }) {
 
   return (
     <div className="container my-4">
-      <form className="row g-3 align-items-center" onSubmit={handleSubmit}>
-        <div className="col-12">
-          <h5>What do you need for your 😍 trip?</h5>
-        </div>
-
+      <form className="row g-3" onSubmit={handleSubmit}>
         <div className="col-auto">
           <select
             className="form-select"

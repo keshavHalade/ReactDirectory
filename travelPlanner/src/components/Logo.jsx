@@ -2,7 +2,7 @@ import React from 'react'
 
 function Logo() {
   return (
-    <h2 className='nav-brand'>Travel Planner</h2>
+    <h1 className='text-center mt-2 text-success p-4 shadow'>🎒 Travel Planner 👜</h1>
   )
 }
 

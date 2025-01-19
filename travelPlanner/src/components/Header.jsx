@@ -1,20 +1,13 @@
-import React from 'react';
-import Logo from './Logo';
-import Form from './Form';
+import React from "react";
+import Logo from "./Logo";
+import Form from "./Form";
 
-function Header({onSetListItem}) {
+function Header({ onSetListItem }) {
   return (
-    <div className="rounded p-3">
-      <div className="row align-items-center">
-        {/* Logo Section */}
-        <div className="col-auto">
-          <Logo />
-        </div>
-
-        {/* Form Section */}
-        <div className="col">
-          <Form onSetListItem={onSetListItem} />
-        </div>
+    <div className="d-flex px-4 shadow">
+      <h5 className="my-4">What do you need for your 😍 trip?</h5>
+      <div className="ms-auto">
+        <Form onSetListItem={onSetListItem} />
       </div>
     </div>
   );

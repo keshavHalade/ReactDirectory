@@ -6,6 +6,7 @@ function List({ item, onRemove, onPacked}) {
       <input
         type="checkbox"
         className="me-2"
+        checked={item.packed}
         value={item.packed}
         onChange={() => onPacked(item.id)}
       />

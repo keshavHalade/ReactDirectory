@@ -20,7 +20,7 @@ function PackingList({ items, onClearList, onRemoveListItem, onPacked }) {
     >
       <div className="d-flex flex-column flex-grow-1">
         <ul className="list-group d-flex flex-column flex-lg-row flex-wrap gap-4 mb-4 w-100">
-          {sortedItems.map((item) => (
+          {sortedItems?.map((item) => (
             <List
               key={item.id}
               item={item}
